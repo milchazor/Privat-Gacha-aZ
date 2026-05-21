@@ -1,0 +1,50 @@
+[
+    {
+        "name": "S1 LEFT",
+        "teleporter": "STATION 01",
+        "resource_type": "element",
+        "side": "left"
+    },
+    {
+        "name": "S1 RIGHT",
+        "teleporter": "STATION 01",
+        "resource_type": "crystal",
+        "side": "right"
+    },   
+    {
+        "name": "S2 LEFT",
+        "teleporter": "STATION 02",
+        "resource_type": "element",
+        "side": "left"
+    },
+    {
+        "name": "S2 RIGHT",
+        "teleporter": "STATION 02",
+        "resource_type": "crystal",
+        "side": "right"
+    },
+    {
+        "name": "S3 LEFT",
+        "teleporter": "STATION 03",
+        "resource_type": "element",
+        "side": "left"
+    },
+    {
+        "name": "S3 RIGHT",
+        "teleporter": "STATION 03",
+        "resource_type": "crystal",
+        "side": "right"
+    },
+    {
+        "name": "S4 LEFT",
+        "teleporter": "STATION 04",
+        "resource_type": "element",
+        "side": "left"
+    },
+    {
+        "name": "S4 RIGHT",
+        "teleporter": "STATION 04",
+        "resource_type": "crystal",
+        "side": "right"
+    }
+]

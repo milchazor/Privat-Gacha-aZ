@@ -1,0 +1,110 @@
+[
+    {
+        "dediID": "deposit",
+        "active": true,
+        "dediBoxes": [
+            {
+                "resource": "dust",
+                "location": {
+                    "yaw": -158.89,
+                    "pitch": 23.68
+                },
+                "crouched": false
+            },
+            {
+                "resource": "bluegem",
+                "location": {
+                    "yaw": -161.08,
+                    "pitch": -19.41
+                },
+                "crouched": false
+            },
+            {
+                "resource": "dust",
+                "location": {
+                    "yaw": -165.02,
+                    "pitch": -48.72
+                },
+                "crouched": false
+            },
+            {
+                "resource": "crystal",
+                "location": {
+                    "yaw": -96.12,
+                    "pitch": 24.11
+                },
+                "crouched": false
+            },
+            {
+                "resource": "blackpearl",
+                "location": {
+                    "yaw": -98.09,
+                    "pitch": -20.94
+                },
+                "crouched": false
+            },
+            {
+                "resource": "silk",
+                "location": {
+                    "yaw": -92.18,
+                    "pitch": -52.44
+                },
+                "crouched": false
+            }
+        ]
+    },
+    {
+        "dediID": "grindables",
+        "active": true,
+        "dediBoxes": [
+            {
+                "resource": "metal",
+                "location": {
+                    "yaw": 171.36,
+                    "pitch": 17.55
+                },
+                "crouched": false
+            },
+            {
+                "resource": "wood",
+                "location": {
+                    "yaw": 162.83,
+                    "pitch": -20.29
+                },
+                "crouched": false
+            },
+            {
+                "resource": "stone",
+                "location": {
+                    "yaw": 165.89,
+                    "pitch": -53.97
+                },
+                "crouched": false
+            },
+            {
+                "resource": "chitin",
+                "location": {
+                    "yaw": 95.90,
+                    "pitch": 33.30
+                },
+                "crouched": false
+            },
+            {
+                "resource": "hide",
+                "location": {
+                    "yaw": 93.71,
+                    "pitch": -18.10
+                },
+                "crouched": false
+            },
+            {
+                "resource": "fiber",
+                "location": {
+                    "yaw": 86.28,
+                    "pitch": -48.50
+                },
+                "crouched": false
+            }
+        ]
+    }
+]

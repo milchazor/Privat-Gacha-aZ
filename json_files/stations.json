@@ -1,0 +1,82 @@
+[
+    {
+        "name": "STATION PE",
+        "xpos": 311612,
+        "ypos": -173869,
+        "zpos": -27165,
+        "yaw": -129.94,
+        "pitch": 0
+    },
+    {
+        "name": "STATION GR",
+        "xpos": 311021,
+        "ypos": -173519,
+        "zpos": -27168,
+        "yaw": 143.14,
+        "pitch": -5.85
+    },
+    {
+        "name": "STATION 00",
+        "xpos": 312064,
+        "ypos": -170862,
+        "zpos": -29363,
+        "yaw": -126.74,
+        "pitch": -1.26
+    },
+    {
+        "name": "STATION DR",
+        "xpos": 310710,
+        "ypos": -174020,
+        "zpos": -27168,
+        "yaw": -128.93,
+        "pitch": -1.26
+    },
+    {
+        "name": "STATION SE",
+        "xpos": 310912,
+        "ypos": -173772,
+        "zpos": -26567,
+        "yaw": -130.21,
+        "pitch": 0
+    },
+    {
+        "name": "STATION BE",
+        "xpos": 311582,
+        "ypos": -173887,
+        "zpos": -26566,
+        "yaw": -127.80,
+        "pitch": 0
+    },
+    {
+        "name": "STATION 01",
+        "xpos": 309672,
+        "ypos": -172432,
+        "zpos": -26568,
+        "yaw": -129.36,
+        "pitch": 7.05
+    },
+    {
+        "name": "STATION 02",
+        "xpos": 311535,
+        "ypos": -170081,
+        "zpos": -27168,
+        "yaw": -129.14,
+        "pitch": 3.34
+    },
+    {
+        "name": "STATION 3",
+        "xpos": 311615,
+        "ypos": -167082,
+        "zpos": -27168,
+        "yaw": -129.80,
+        "pitch": 6.18
+    },
+    {
+        "name": "STATION 04",
+        "xpos": 309574,
+        "ypos": -171589,
+        "zpos": -29568,
+        "yaw": -128.71,
+        "pitch": 7.49
+    }
+]

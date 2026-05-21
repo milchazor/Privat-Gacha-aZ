@@ -1,0 +1,28 @@
+
+{   
+    "screen_resolution":"1920x1080", 
+    "base_path":"C:/Program Files (x86)/Steam/steamapps/common/ARK Survival Ascended",
+    "lag_offset": 1.0,
+    "iguanadon": "STATION SE",
+    "drop_off": "STATION DR",
+    "bed_spawn": "STATION 00",
+    "berry_station": "STATION BE",
+    "grindables": "STATION GR",
+    "berry_type": "berry",
+    "station_yaw": -126.74 ,
+    "render_pushout": 36.87  ,
+    "height_ele": 3,
+    "height_grind": 3,
+    "command_prefix": "%",
+    "server_number": "0",
+    "singleplayer": false,
+    "external_berry": false,
+    "crafting": false,
+    "seeds_230": false,
+    "side_crop_plot": false,
+    "y_trap_bot": false,
+    "log_channel_gacha": "",
+    "log_active_queue": "",
+    "log_wait_queue": "",
+    "discord_api_key": ""
+}
