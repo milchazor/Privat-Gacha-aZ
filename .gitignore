@@ -1,7 +1,6 @@
 /venv
 /__pycache__
 *.pyc
-settings.py
 /source/logs
 /json_files/backup2
 /json_files/settings.json
