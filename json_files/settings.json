@@ -21,10 +21,5 @@
     "seeds_230": false,
     "side_crop_plot": false,
     "y_trap_bot": false,
-    "log_channel_gacha": "",
-    "log_active_queue": "",
-    "log_wait_queue": "",
-    "log_logs": "",
-    "log_status_channel": "",
-    "discord_api_key": ""
+
 }

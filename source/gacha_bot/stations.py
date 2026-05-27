@@ -92,7 +92,7 @@ class gacha_station(base_task):
         return 3
     
     def get_requeue_delay(self):
-        return 1800
+        return 3600
 
 class pego_station(base_task):
     def __init__(self,name,teleporter_name,delay):
@@ -212,12 +212,12 @@ class checklogs(base_task):
     def execute(self):
         player_state.check_state()
         tribelog.open()
-        new_logs = screen.get_screen_roi(variables.get_pixel_loc("tribe_log_x"), variables.get_pixel_loc("tribe_log_y"), 200, 200)
+        new_logs = screen.get_screen_roi(variables.get_pixel_loc("tribe_log_x"), variables.get_pixel_loc("tribe_log_y"), 316, 587)
         logs.tribe_logger.info(f'Tribe Logs at:{time.time()}')
         logs.tribe_logger.info(f'{new_logs}')
 
     def get_priority_level(self):
-        return 8
+        return 1
     
     def get_requeue_delay(self):
         return 300 

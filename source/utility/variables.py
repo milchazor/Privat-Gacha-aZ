@@ -33,8 +33,8 @@ data = {
     "back_button_tp_y": 1285,
     "confirm_accept_x": 1133,
     "confirm_accept_y": 973,
-    "tribe_log_x": 1700,
-    "tribe_log_y": 1200
+    "tribe_log_x": 568,
+    "tribe_log_y": 88
 }
 
 def get_pixel_loc(location):
