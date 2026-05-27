@@ -33,6 +33,8 @@ default_settings = {
     "log_channel_gacha": "",
     "log_active_queue": "",
     "log_wait_queue": "",
+    "log_logs": "",
+    "log_status_channel": "",
     "discord_api_key": ""
 }
 

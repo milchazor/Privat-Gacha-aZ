@@ -33,6 +33,21 @@ class discord_commands(commands.Cog):
                     last_position = file.tell()
             await asyncio.sleep(5)
 
+    async def send_tribe_logs(self):
+        log_channel = self.bot.get_channel(int(settings.log_status_channel))
+        last_position = 0
+        while True:
+            with open("source/logs/tribe_logs.txt", 'r') as file:
+                file.seek(last_position)
+                new_logs = file.read()
+                if new_logs:
+                    if len(new_logs) >= 1999:
+                        await log_channel.send(f"New logs:\n```log limit reached 2000 skipping```")
+                    else:
+                        await log_channel.send(f"New logs:\n```{new_logs}```")
+                    last_position = file.tell()
+            await asyncio.sleep(5)
+
     async def embed_send(self,queue_type):
         log_channel = 0
         if queue_type == "active_queue":
@@ -79,6 +94,7 @@ class discord_commands(commands.Cog):
             await asyncio.sleep(1)
         self.bot.loop.create_task(self.embed_send("active_queue"))
         self.bot.loop.create_task(self.embed_send("waiting_queue"))
+        self.bot.loop.create_task(self.send_tribe_logs())
     
     async def get_time_diffrence(self,inital):
         time_difference = time.time() - inital

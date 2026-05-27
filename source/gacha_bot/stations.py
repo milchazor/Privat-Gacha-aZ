@@ -193,7 +193,7 @@ class crafting(base_task):
 class transfer(base_task):
 
     def __init__(self):
-        ...
+        channel = variablesget_variable("transfer_channel")
     def execute(self):
         ...
     def get_priority_level(self):
@@ -201,3 +201,23 @@ class transfer(base_task):
     
     def get_requeue_delay(self):
         return 0
+    
+class checklogs(base_task):
+
+    def __init__(self,name,delay):
+        self.name = name
+        self.delay = delay
+        
+
+    def execute(self):
+        player_state.check_state()
+        tribelog.open()
+        new_logs = screen.get_screen_roi(variables.get_pixel_loc("tribe_log_x"), variables.get_pixel_loc("tribe_log_y"), 200, 200)
+        logs.tribe_logger.info(f'Tribe Logs at:{time.time()}')
+        logs.tribe_logger.info(f'{new_logs}')
+
+    def get_priority_level(self):
+        return 8
+    
+    def get_requeue_delay(self):
+        return 300 
